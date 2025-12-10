@@ -55,3 +55,6 @@ class Game(arcade.Window):
     def update(self, delta_time: float):
         self.green_tank.update() # allowing tank to move in the window
 
+game = Game(width=WIDTH, height=HEIGHT, title=TITLE)
+
+arcade.run()
