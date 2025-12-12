@@ -1,0 +1,24 @@
+Tank
+
+center_x: float
+
+center_y: float
+
+angle: float
+
+change_x: float
+
+change_y: float
+
+change_angle: float
+
+activate: bool
+
+
+Game State
+
+tank: Green_Tank
+
+key_states: dict (left, right, up, down)
+
+background: image
