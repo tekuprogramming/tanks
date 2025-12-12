@@ -1,0 +1,12 @@
+Arcade API
+
+arcade.Window -> main window & event loop
+
+arcade.Sprite -> tank
+
+arcade.draw_texture_rectangle -> background
+
+
+Python standard
+
+math -> trigonometric calculations
