@@ -14,7 +14,7 @@ The game demonstrates:
 ## Requirements
 
 * Python 3.8+
-* arcade library (`pip install arcade`)
+* arcade library (`pip install arcade==2.6.17`)
 * image assets:
 
 ```
@@ -63,7 +63,7 @@ This ensures the tank moves in the direction it is facing.
 1. Make sure Python and the `arcade` library are installed:
 
 ```bash
-pip install arcade
+pip install arcade==2.6.17
 ```
 
 2. Place the image assets (`green.png`, `background.png`) in the same folder as `main.py`.
