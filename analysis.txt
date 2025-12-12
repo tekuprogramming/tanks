@@ -1,0 +1,35 @@
+Analysis
+
+Requirements: tank turns and drives, background, arrow controls
+
+
+Requirements record
+
+User stories:
+
+"Player wants to control tank with arrows"
+
+"Tank turns in the direction of the gun"
+
+
+Solution proposals and models
+
+Row Gateway -> logic for tank movement
+
+Sprite + update() -> trigonometric movement
+
+
+Task prioritization
+
+basic tank movement -> highest
+
+background -> medium
+
+expansion shooting/collision -> low
+
+
+Anticipating changes
+
+possibility to add more tanks
+
+possibility to add AI
