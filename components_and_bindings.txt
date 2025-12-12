@@ -1,0 +1,42 @@
+Components:
+
+Game Window (Arcade Window)
+
+provides game loop, rendering, updating, key input
+
+API/Integration: calls Green_Tank.update(), Green_Tank.draw()
+
+Green_Tank Sprite
+
+represents tank
+
+attributes: position (center_x, center_y), angle (angle), motion state (change_x, change_y, change_angle)
+
+methods: update(), draw()
+
+Background Asset
+
+background image (background.png)
+
+loaded via Arcade API
+
+Input Handler (Game component)
+
+detects on_key_press and on_key_release
+
+sets Green_Tank.change_x, change_y, change_angle
+
+Main Loop (Arcade component)
+
+renders scene (on_draw) and updates state (update)
+
+
+Bindings:
+
+Game Window → Green_Tank (update, draw)
+
+Game Window → Input Handler (on_key_press/release)
+
+Game Window → Background Asset (draw_texture_rectangle)
+
+Main Loop → Game Window (on_draw, update)
