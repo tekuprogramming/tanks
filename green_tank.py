@@ -1,6 +1,6 @@
 import math
-
 import arcade
+from constants import *
 
 class Green_Tank(arcade.Sprite):
     def __init__(self):
@@ -16,4 +16,5 @@ class Green_Tank(arcade.Sprite):
             self.part_y = math.sin(math.radians(self.angle))
             self.center_x += self.part_x * self.change_x # x position of tank will change
             self.center_y += self.part_y * self.change_y # y position of tank will change
+
 
