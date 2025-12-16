@@ -1,5 +1,8 @@
 import arcade
 import green_tank
+import tank_bullet
+import tank_base
+from constants import *
 
 class Game(arcade.Window):
     def __init__(self, width, height, title):
@@ -73,4 +76,5 @@ class Game(arcade.Window):
 
 game = Game(width=WIDTH, height=HEIGHT, title=TITLE)
 arcade.run()
+
 
