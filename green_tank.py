@@ -17,4 +17,15 @@ class Green_Tank(arcade.Sprite):
             self.center_x += self.part_x * self.change_x # x position of tank will change
             self.center_y += self.part_y * self.change_y # y position of tank will change
 
+        if self.left < 0:
+            self.left = 0
+
+        if self.right > 1200:
+            self.right = 1200
+
+        if self.top > 700:
+            self.top = 700
+
+        if self.bottom < 0:
+            self.bottom = 0
 
