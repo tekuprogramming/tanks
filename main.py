@@ -66,6 +66,8 @@ class Game(arcade.Window):
     def update(self, delta_time):
         self.green_tank.update()
         self.bullet_list.update()
+        self.green_base.update()
+        self.red_base.update()
 
     def place(self):
         self.green_base.center_x = 90
@@ -76,5 +78,6 @@ class Game(arcade.Window):
 
 game = Game(width=WIDTH, height=HEIGHT, title=TITLE)
 arcade.run()
+
 
 
